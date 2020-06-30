@@ -3,7 +3,7 @@ import tkinter as tk
 
 window = tk.Tk()
 label=tk.Label(text="Name")
-entry=tk.Entry()
+button=tk.Button(text="Click here!")
 label.pack()
-entry.pack()
+button.pack()
 window.mainloop()
